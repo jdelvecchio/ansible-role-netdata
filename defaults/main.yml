@@ -1,2 +1,6 @@
 ---
 netdata_modules:
+netdata_installer: ./netdata-installer.sh
+netdata_default_port: 19999
+netdata_source_dir: /usr/local/src/netdata
+netdata_git_repo: https://github.com/firehol/netdata.git
