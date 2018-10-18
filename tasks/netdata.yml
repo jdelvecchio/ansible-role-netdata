@@ -1,0 +1,10 @@
+---
+- name: install the latest version of netdata
+  yum:
+    name: netdata
+    state: latest
+
+- name: Enable netdata at boot
+  systemd:
+    name: netdata
+    enabled: yes
